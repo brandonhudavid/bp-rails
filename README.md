@@ -2,6 +2,8 @@
 ###### A Rails mini-project for Blueprint.
 
 The idea of the project is to create an artwork database that people can view and contribute to.
+</br>
+![bp-rails screenshot](https://raw.githubusercontent.com/brandonhudavid/bp-rails/master/bp-rails_scrn.png)
 
 ## Using the Artwork Database
 * The website allows users to create an artwork post if they have an account (they are prompted with a username and password.)
