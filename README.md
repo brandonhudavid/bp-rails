@@ -9,6 +9,13 @@ The idea of the project is to create an artwork database that people can view an
 * Users without an account can still view posts and contribute to the comments section.
 * The website has a Home button at the top right and a link to my website at the top left.
 
+# Next Steps
+There are many improvements that could be made to this project if time persisted Here are some changes I would make:
+* Making title names a hyperlink to show the post.
+* Displaying the image itself rather than the image link.
+* Including a log in page that turned into a log out page for account users.
+* Establishing a points system to create a comments hierarchy.
+* Working on the CSS and overall layout of the website.
 
 ## Built With
 * Rails 5.1.4 - Project ideation help from [here](http://guides.rubyonrails.org/getting_started.html#creating-articles).
