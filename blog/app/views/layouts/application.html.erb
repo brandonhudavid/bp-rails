@@ -9,6 +9,20 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= link_to image_tag("bd_logo.png", alt: "brandonhudavid"),
+            'https://brandonhudavid.github.io', target: :_blank %>
+    <div class="container">
+      <!-- <%= link_to "sample app", '#', id: "logo" %> -->
+      <nav>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Home",   '/articles' %></li>
+          <!-- <li><%= link_to "Help",   '#' %></li>
+          <li><%= link_to "Log in", '#' %></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

@@ -1,5 +1,5 @@
-<h1>Listing articles</h1>
-<%= link_to 'New article', new_article_path %>
+<h1>Brandon David's Meme Database</h1>
+<%= link_to 'New Meme', new_article_path %>
 
 <table>
   <tr>
@@ -16,7 +16,7 @@
       <td><%= link_to 'Edit', edit_article_path(article) %></td>
       <td><%= link_to 'Destroy', article_path(article),
               method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
+              data: { confirm: 'Destroy this meme?' } %></td>
     </tr>
   <% end %>
 </table>
